@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background-color: lightgray;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    display: flex;
+    margin: 3px;
+    background-color: whitesmoke;
+}
+
+header {
+    flex: 1 1 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+
+nav {
+    flex: 1 1 200px;
+}
+
+main {
+    flex: 20 1 500px;
+    height: calc(100vh - 224px); 
+    padding: 10px;
+    overflow-y: auto; 
+    margin-bottom: 120px; 
+    flex-direction: column;
+}
+
+aside {
+    flex: 1 1 250px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+footer {
+    flex: 1 1 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+.img-logo {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+}
+
+#pesquisa-header {
+    width: 50vw;
+}
+
+.botao-pesquisar {
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.registro {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.registro:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.menu-navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-navegacao a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.menu-navegacao h1 {
+    margin-top: 15px;
+}
+
+.menu-navegacao a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    background-color: rgb(206, 205, 205);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+article h1 {
+    font-size: 2em;
+    border-bottom: 2px solid gray;
+}
+
+article p {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+article ul li{
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.inicio-ancora {
+    margin-top: 10px;
+}
+
+.div-rodape {
+    text-align: center;
+}
+
+.div-rodape p {
+    margin-top: 10px;
+}
+
+.link-insta {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.link-insta:hover {
+    text-decoration: underline;
+    color: gray;
+}
